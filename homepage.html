@@ -1,0 +1,42 @@
+{% extends "index.html" %}
+
+{% block main %}
+<body style="position: relative; min-height: 100%; top: 0px;">
+	<div class="w3-container top">
+			<img id="profile_pic" src="../static/img/todolist_logo.jpg" , alt="Profile Picture" />
+			<div id="loginactioncontainer" class='w3-right'>
+				<div id="mypagediv" style="display: none;"></div>
+				<a style="display: inline;" href="/login">LOG IN</a>
+			</div>
+			<p>{{ message}}</p>
+
+			<div id="signupactioncontainer" class='w3-right'>
+				<div id="mypagediv" style="display: none;"></div>
+				<a style="display: inline;" href="/signup">SIGN UP For Free</a>
+			</div>
+			<br>
+
+			<div id="listofthings" class="w3-right" w3-hide-small w3-wide toptext style="font-family:'Segoe UI', Arial, sans-serif">THE WORLD'S LIST OF BEAUTIFUL THINGS TO DO
+			</div>
+
+	</div>
+
+	<br>
+
+
+	<h1>We are the designers of TODO list app</h1>
+	<h3>Our history goes back in time, when wolves were dogs and buterflies were larves</h3>
+	<p>Our intention is to help you when your days get's bussy. Our
+	app has been designed to keep your agenda upgraded every moment, giving you the possibility to add, delete or conclude lists of things to do every day.</p>
+	<br>
+	<ul>
+
+		<li><a href="/termsofuse"> Terms of use </a></li>
+
+		<li><a href="/privacy"> Privacy </a></li>
+
+		<li><a href="/about"> About us </a></li>
+	</ul>
+
+{% endblock main %}
+</body>

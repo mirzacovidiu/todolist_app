@@ -1,0 +1,19 @@
+{% extends "index.html" %}
+
+{% block main %}
+	<img id="profile_pic" src="../static/img/todolist_logo.jpg" , alt="Profile Picture" />
+	<br>
+	<br>
+	<div>Add a new list: <input type="text"><input type="submit"></div>
+	<div>Add a new todo item: <input type="text"><input type="submit"></div>
+	<div>
+		<ul>
+			<li style="font-size: 20pt;"><input type="checkbox">Some text</li>
+			<li style="font-size: 20pt;"><input type="checkbox">Some text</li>
+			<li style="font-size: 20pt;"><input type="checkbox">Some text</li>
+		</ul>
+	</div>
+	<a href="/logout">Log out</a>
+
+
+{% endblock main %}
