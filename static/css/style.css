@@ -1,0 +1,80 @@
+html, body{
+	background-color: white;
+}
+
+p {
+	color: green;
+}
+
+.cooker01 {
+	width: 470px;
+	padding-left: 60px;
+	margin: 0 0 10px 25px;
+	font-size: 12px;
+	display: inline-block;
+}
+
+.logo {
+	position: relative;
+	float: left;
+	border: 3px solid #C6930A;
+	border-style: dotted;
+	background: #66594C;
+	width: 140px;
+	padding: 5px;
+	margin: 5px;
+	text-align: center;
+	-moz-box-shadow: 1px 1px 3px #222;
+	-moz-transform: rotate(-5deg);
+	-webkit-box-shadow: 1px 1px 3px #222;
+	-webkit-transform: rotate(-5deg);
+	box-shadow: 1px 1px 3px #222;
+	-o-transform: rotate(-5deg);
+	transform: rotate(-5deg);
+}
+.w3-container {
+	padding: 0.01em 16px;
+}
+
+.w3schools-logo {
+	font-family: fontawasome;
+	text-decoration: none;
+	line-height: 1;
+	font-size: 37px;
+	letter-spacing: 3px;
+	color: #555555;
+	display: block;
+	position: absolute;
+	top: 17px;
+}
+
+#loginactioncontainer{
+	width: 80px;
+	height: 50px;
+}
+#signupactioncontainer{
+	width: 80px;
+	height: 50px;
+}
+.w3-right{
+	float:right!important;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: hidden;
+	background-color: #333333;
+}
+li {
+	float: left;
+}
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 16px;
+	text-decoration: none;
+}
+li a:hover {
+	background-color: #111111;
+}
